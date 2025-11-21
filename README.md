@@ -1,4 +1,4 @@
-# JaCaMo Template Project (v1.2)
+# JaCaMo Template Project (v1.3)
 
 You can open this initial JaCaMo project as a template using the above button "Use this template" and then "open in codespace". When the codespace is ready, you can run the application with 
 
