@@ -11,11 +11,22 @@
 
 mas main {
 
+    agent alice: skhandler_agent.asl
+
     agent bob: sample_agent.asl {
-      focus: w.c1 
+      focus: w.c1
     }
 
     workspace w {
       artifact c1: example.Counter(3) 
+    }
+
+    organisation skorg {
+        group skgroup: skgroup {
+            responsible-for: s1
+            players: alice skHandler
+                     bob governor
+        }
+        scheme s1: assemblySkSch
     }
 }
