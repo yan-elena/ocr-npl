@@ -1,10 +1,14 @@
-# JaCaMo Template Project (v1.3)
+# Examples for creating an Organization-Centric Regulation management with JaCaMo
 
-You can open this initial JaCaMo project as a template using the above button "Use this template" and then "open in codespace". When the codespace is ready, you can run the application with 
+## Example 1
 
+This example creates a simple organizational agent from the source `src/agt/normative_agent.asl` that holds the regulative norms `src/reg/regulative.npl` and constitutive norms `src/reg/constitutive.sai`.
+
+To run the example, execute the following command in the terminal:
 ````
-./gradlew run
+./gradlew ex1
 ````
 
-You can also use [GitPod](https://gitpod.io/#https://github.com/jacamo-lang/template).
+
+
 

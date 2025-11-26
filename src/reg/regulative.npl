@@ -1,0 +1,8 @@
+scope main {
+
+    norm n1: required(arc([ocr,acr],sdr)) & play(Ag,skHandler,skgroup)
+       -> obligation(Ag, n1, managed(REG, enforce)[source(Ag)], `10 seconds`).
+
+    norm n2: required(cap(enforce)) & managed(REG, enforce)[source(Ag)] & play(Ag,skHandler,skgroup)
+       -> obligation(Ag, n1, realized(enforce)[source(Ag)], `20 seconds`).
+}

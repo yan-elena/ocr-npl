@@ -37,6 +37,7 @@
         .
 
 
+
 // plans to handle obligations
 // obligation to commit to a mission
 +obligation(Ag,Norm,committed(Ag,Mission,Scheme),Deadline)[artifact_id(ArtId),workspace(_,W)]

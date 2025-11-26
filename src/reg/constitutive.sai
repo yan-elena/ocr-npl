@@ -1,0 +1,12 @@
+institution_id : inst_rma.
+
+status_functions:
+
+states: required(REQ).
+
+
+constitutive_rules:
+
+1: bottleneck count-as required(arc([ocr, acr], sdr)).
+
+2: unfulfillments count-as required(cap(enforce)).
