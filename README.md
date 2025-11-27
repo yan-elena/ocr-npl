@@ -11,6 +11,11 @@ To run the example, execute the following command in the terminal:
 ./gradlew ex1
 ````
 
+## Example 2
 
+This example creates a simple organizational agent from the source `src/normboard_agent.asl` which creates a normative board for computing the regulative norms `src/reg/regulative.npl`. 
 
-
+To run the example, execute the following command in the terminal:
+````
+./gradlew ex2
+````
