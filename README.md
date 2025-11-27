@@ -1,4 +1,6 @@
-# Examples for creating an Organization-Centric Regulation management with JaCaMo
+# Organization-Centric Regulation management with JaCaMo
+
+This repository contains several examples to manage regulations in an organization-centric regulation architecture using JaCaMo multi-agent systems framework.
 
 ## Example 1
 

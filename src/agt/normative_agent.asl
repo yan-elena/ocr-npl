@@ -1,4 +1,19 @@
 
+!started.
+
++!started
+    <-  .print("Started.");
+        +play(bob,skHandler,skgroup);
+        .print("add bottleneck...");
+        +bottleneck;
+        .
+
+
+
+
+
+// Logs for an update of the normative state
+
 +active(obligation(Me, M, O,D)) : .my_name(Me)
     <-  .print("obliged to achieve: ", O);
         .
