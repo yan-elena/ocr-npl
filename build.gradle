@@ -85,6 +85,18 @@ task ex2 (type: JavaExec, dependsOn: 'classes') {
     classpath sourceSets.main.runtimeClasspath
 }
 
+task ex3 (type: JavaExec, dependsOn: 'classes') {
+    group       ' JaCaMo'
+    description 'runs the JaCaMo application'
+    doFirst {
+        mkdir 'log'
+    }
+    mainClass = 'jacamo.infra.JaCaMoLauncher'
+    args 'ex3-moise.jcm'
+    // jvmArgs '-Xss15m'
+    classpath sourceSets.main.runtimeClasspath
+}
+
 
 task buildJCMDeps (type: JavaExec, dependsOn: 'classes') {
     mainClass = 'jacamo.infra.RunJaCaMoProject'
